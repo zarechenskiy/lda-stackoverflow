@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="mallet">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/aliev/mallet-2.0.7/dist/mallet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/aliev/mallet-2.0.7/src" />
+    </SOURCES>
+  </library>
+</component>

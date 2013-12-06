@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="MySQL" version="5.5.34-0ubuntu0.12.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="6b101c2a-288e-4446-8cfb-7fc39820cbbc">
+    <extra-name-characters>#@</extra-name-characters>
+    <identifier-quote-string>`</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://localhost/crawler</jdbc-url>
+    <user-name>root</user-name>
+    <user-password>dbe2dbe8db9fdbe9db90db9adbeedbebdbe9</user-password>
+    <schema-pattern>crawler.*</schema-pattern>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/mysql_connector/mysql-connector-java-5.1.26-bin.jar!/</url>
+      </library>
+    </libraries>
+    <schema name="" catalog="crawler"/>
+    <table name="lda_questions" schema="" catalog="crawler" type="TABLE">
+      <column name="id_question" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="question" sqlType="VARCHAR" length="256" precision="0" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="link" sqlType="VARCHAR" length="256" precision="0" nullable="true" jdbcType="12"/>
+      <column name="tags" sqlType="VARCHAR" length="256" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_question"/>
+      <exported-key name="lda_tags_ibfk_1" table="lda_tags" schema="" catalog="crawler" columns="id_question"/>
+    </table>
+    <table name="lda_result" schema="" catalog="crawler" type="TABLE">
+      <column name="id_result" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="id_question" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="topics" sqlType="VARCHAR" length="512" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_result"/>
+      <index name="unique_id_question" unique="true" columns="id_question"/>
+    </table>
+    <table name="lda_tags" schema="" catalog="crawler" type="TABLE">
+      <column name="id_tag" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="id_question" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="tag" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_tag"/>
+      <foreign-key name="lda_tags_ibfk_1" columns="id_question" ref-table="lda_questions" ref-schema="" ref-catalog="crawler" ref-columns="id_question" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+  </data-source>
+</component>
