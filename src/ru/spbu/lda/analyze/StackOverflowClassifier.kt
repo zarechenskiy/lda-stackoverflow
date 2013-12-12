@@ -28,9 +28,7 @@ class ClustersToTags {
         data.put(key, value)
     }
 
-    fun get(key: Int): String {
-        return data.get(key)
-    }
+    fun get(key: Int) = data.get(key)
 }
 
 fun matchClustersToTags(clustersToDocuments: ClustersToDocuments): ClustersToTags {

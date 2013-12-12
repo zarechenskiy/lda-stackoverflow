@@ -26,9 +26,7 @@ private fun calculatePrecise(estimatedTags: Set<String>, truthTags: Set<String>)
     return matchedTags.toDouble() / estimatedTags.size.toDouble()
 }
 
-private fun calculateRecall(estimatedTags: Set<String> truthTags: Set<String>): Double {
-    return calculatePrecise(truthTags, estimatedTags)
-}
+private fun calculateRecall(estimatedTags: Set<String> truthTags: Set<String>) = calculatePrecise(truthTags, estimatedTags)
 
 fun calculateProbability(docs1: Set<Int>, docs2: Set<Int>): Double {
     val intersected = countInIntersection(docs1, docs2)

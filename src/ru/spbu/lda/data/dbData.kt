@@ -21,9 +21,7 @@ class DocumentsToTags {
         data.get(numDocument).add(tag)
     }
 
-    fun get(key: Int): Set<String> {
-        return data.get(key)
-    }
+    fun get(key: Int) = data.get(key)
 }
 
 class TagsToDocuments {
@@ -35,9 +33,7 @@ class TagsToDocuments {
         data.get(key).add(value)
     }
 
-    fun get(key: String): Set<Int> {
-        return data.get(key)
-    }
+    fun get(key: String) = data.get(key)
 }
 
 fun getUsersTags(): DocumentsToTags {
@@ -108,6 +104,4 @@ fun selectColumnsFromDB(vararg columnNames: String): ResultSet {
     return SQLUtils.INSTANCE.getConnection().createStatement().executeQuery(query)
 }
 
-fun selectTagsFromDB(): ResultSet {
-    return selectColumnsFromDB("tags")
-}
+fun selectTagsFromDB() = selectColumnsFromDB("tags")
