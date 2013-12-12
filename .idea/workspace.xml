@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" name="Default" comment="">
+    <list default="true" id="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" name="Default" comment="Remove">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spbu/lda/data/dbData.kt" afterPath="$PROJECT_DIR$/src/ru/spbu/lda/data/dbData.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lda.iws" />
@@ -43,9 +44,11 @@
     <file path="/RocAnalyzer.kt" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1385663702304" ignored="false" />
     <file path="/ldaDistribution.kt" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1386278046223" ignored="false" />
     <file path="$PROJECT_DIR$/../vichi/Vichi/java/util/annotations.xml" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1386277588993" ignored="false" />
-    <file path="/Dummy.txt" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1386312893260" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1386873078291" ignored="false" />
     <file path="/classifierAnalyzer.kt" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1386310510116" ignored="false" />
     <file path="/.gitignore" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1386311511232" ignored="false" />
+    <file path="$PROJECT_DIR$/../vichi/Vichi/java/sql/annotations.xml" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1386842800480" ignored="false" />
+    <file path="$PROJECT_DIR$/../KotlinChallenge/src/Some.java" changelist="8f68ebc5-7c80-420b-8cc1-812d0b413d8e" time="1386842815027" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -102,6 +104,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -114,16 +117,7 @@
       <file leaf-file-name="ldaDistribution.kt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/distribution/ldaDistribution.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="29" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LDA.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/LDA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="12" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,34 +126,36 @@
       <file leaf-file-name="classifierAnalyzer.kt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/analyze/classifierAnalyzer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="annotations.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cc/mallet/topics/annotations.xml">
+      <file leaf-file-name="SQLUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/data/utils/SQLUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="16" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="annotations.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cc/mallet/types/annotations.xml">
+      <file leaf-file-name="dbData.kt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/data/dbData.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="97" column="15" selection-start="2224" selection-end="2224" vertical-scroll-proportion="0.58984375">
+              <folding>
+                <element signature="e#21#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.087890625">
+            <state line="4" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,24 +165,6 @@
         <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/analyze/StandAloneClassifier.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="28" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackOverflowClassifier.kt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/analyze/StackOverflowClassifier.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="35" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferedReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/jdk1.7.0_17/src.zip!/java/io/BufferedReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="380" column="18" selection-start="12516" selection-end="12516" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -227,14 +205,14 @@
         <option value="$PROJECT_DIR$/src/ru/spbu/lda/RocAnalyzer.kt" />
         <option value="$PROJECT_DIR$/src/ru/spbu/lda/StandAloneClassifier.kt" />
         <option value="$PROJECT_DIR$/src/ru/spbu/lda/StackOverflowClassifier.kt" />
-        <option value="$PROJECT_DIR$/src/ru/spbu/lda/data/dbData.kt" />
         <option value="$PROJECT_DIR$/src/ru/spbu/lda/analyze/stackOverflowClassifier.kt" />
         <option value="$PROJECT_DIR$/src/ru/spbu/lda/LDA.java" />
         <option value="$PROJECT_DIR$/src/ru/spbu/lda/distribution/ldaDistribution.kt" />
         <option value="$PROJECT_DIR$/src/ru/spbu/lda/analyze/StandAloneClassifier.kt" />
         <option value="$PROJECT_DIR$/src/ru/spbu/lda/analyze/StackOverflowClassifier.kt" />
-        <option value="$PROJECT_DIR$/src/ru/spbu/lda/analyze/classifierAnalyzer.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/ru/spbu/lda/analyze/classifierAnalyzer.kt" />
+        <option value="$PROJECT_DIR$/src/ru/spbu/lda/data/dbData.kt" />
       </list>
     </option>
   </component>
@@ -243,8 +221,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="52" />
-    <option name="width" value="1366" />
-    <option name="height" value="692" />
+    <option name="width" value="1280" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -306,6 +284,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -452,10 +431,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mallet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mallet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,13 +495,13 @@
     <property name="Database.TableEditor.Splitter" value="0.79028136" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -598,6 +620,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -624,19 +659,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -737,12 +759,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="52" width="1366" height="692" extended-state="6" />
+    <frame x="0" y="52" width="1280" height="948" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32685298" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14552845" sideWeight="0.6707169" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -758,13 +781,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19680852" sideWeight="0.67019403" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22520325" sideWeight="0.673147" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60493827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45565006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928312" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928312" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399757" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -836,13 +858,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.7.0_17/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="16" selection-start="8460" selection-end="8460" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-runtime-sources.jar!/kotlin/JUtil.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="18" selection-start="96" selection-end="96" vertical-scroll-proportion="0.09933775" />
@@ -850,44 +865,17 @@
     </entry>
     <entry file="file://$USER_HOME$/Documents/aliev/mallet-2.0.7/src/cc/mallet/topics/ParallelTopicModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1256" column="20" selection-start="38244" selection-end="38244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1256" column="20" selection-start="38244" selection-end="38244" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/aliev/mallet-2.0.7/src/cc/mallet/types/Alphabet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="18" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/data/dbData.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="13" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/data/utils/SQLUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="47" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="125" column="18" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/LDA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="12" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/distribution/ldaDistribution.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="29" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -913,6 +901,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/analyze/rocAnalyzer.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="31" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
@@ -922,7 +917,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/analyze/classifierAnalyzer.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/data/utils/SQLUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/distribution/ldaDistribution.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cc/mallet/types/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="167" selection-end="167" vertical-scroll-proportion="0.078125">
           <folding />
         </state>
       </provider>
@@ -934,17 +950,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cc/mallet/types/annotations.xml">
+    <entry file="jar:///usr/lib/jvm/jdk1.7.0_17/src.zip!/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+        <state line="103" column="14" selection-start="3961" selection-end="3961" vertical-scroll-proportion="0.21986754">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/ru/spbu/lda/data/dbData.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="34" selection-end="34" vertical-scroll-proportion="0.087890625">
-          <folding />
+        <state line="97" column="15" selection-start="2224" selection-end="2224" vertical-scroll-proportion="0.58984375">
+          <folding>
+            <element signature="e#21#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

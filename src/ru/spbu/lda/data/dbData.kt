@@ -105,7 +105,7 @@ fun selectColumnsFromDB(vararg columnNames: String): ResultSet {
     }
 
     val query = "SELECT ${columns.toString()} FROM lda_questions ORDER BY id_question"
-    return SQLUtils.INSTANCE.getConnection().createStatement()!!.executeQuery(query)
+    return SQLUtils.INSTANCE.getConnection().createStatement().executeQuery(query)
 }
 
 fun selectTagsFromDB(): ResultSet {
