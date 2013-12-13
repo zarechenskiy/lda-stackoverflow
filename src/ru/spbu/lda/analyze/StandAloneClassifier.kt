@@ -12,33 +12,10 @@ fun main(args: Array<String>) {
     val file = File("distribution.txt")
     val THRESHOLD = 0.22
 
-//    val truthData = getUsersTags()
+    val truthTags = getUsersTags()
     val estimatedTags = calculateEstimatedTags(file, THRESHOLD)
-    printTags(estimatedTags)
-//    runWithDifferentThresholds(file, truthData)
-}
-
-fun runWithDifferentThresholds(file: File, truthData: DocumentsToTags) {
-    val thresholdRange = jet.DoubleRange(0.0001, 0.96)
-    val step = 0.0001
-
-    var threshold = thresholdRange.start
-    val spAndSe = ArrayList<Pair<Double, Double>>()
-    while (threshold < thresholdRange.end) {
-        println("Threshold: $threshold")
-
-        val estimatedData = calculateEstimatedTags(file, threshold)
-
-        val rocModel = rocAnalyze(estimatedData, truthData, "android", AnalyzerMatching.PARTIALLY)
-
-        spAndSe.add(Pair(1.0 - rocModel.specificity, rocModel.sensitivity))
-        println("${rocModel.falsePositiveRate} ${rocModel.sensitivity}")
-        println()
-
-        threshold += step
-    }
-
-    saveToFile(spAndSe)
+    printTags(estimatedTags, truthTags, "estimated_truth_tags.txt")
+//    printTags(estimatedTags)
 }
 
 fun saveToFile(data: List<Pair<Double, Double>>) {
@@ -57,6 +34,25 @@ fun calculateEstimatedTags(file: File, threshold: Double): DocumentsToTags {
     val clustersToTags = matchClustersToTags(clustersToDocuments)
 
     return matchDocumentsToTags(clustersToTags, documentsToClusters)
+}
+
+fun printTags(estimatedTags: DocumentsToTags, truthTags: DocumentsToTags, file: String) {
+    val fileWriter = FileWriter(file)
+    val writer = BufferedWriter(fileWriter)
+
+    for ((numDocument, tags) in estimatedTags.data) {
+        val tagBuilder = StringBuilder()
+        for (tag in tags) {
+            tagBuilder.append("$tag ")
+        }
+        tagBuilder.append("| ")
+        for (estimatedTag in truthTags.get(numDocument)) {
+            tagBuilder.append("$estimatedTag ")
+        }
+        writer.write(tagBuilder.toString() + "\n")
+    }
+
+    writer.close()
 }
 
 fun printTags(documentToTags: DocumentsToTags) {
